@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD9333AC2C2B598E0007C41F /* TranquilTracksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */; };
+		BD9333AE2C2B598E0007C41F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333AD2C2B598E0007C41F /* ContentView.swift */; };
+		BD9333B02C2B599B0007C41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9333AF2C2B599B0007C41F /* Assets.xcassets */; };
+		BD9333B32C2B599B0007C41F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9333B22C2B599B0007C41F /* Preview Assets.xcassets */; };
+		BD9333BD2C2B599B0007C41F /* TranquilTracksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333BC2C2B599B0007C41F /* TranquilTracksTests.swift */; };
+		BD9333C72C2B599B0007C41F /* TranquilTracksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333C62C2B599B0007C41F /* TranquilTracksUITests.swift */; };
+		BD9333C92C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333C82C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD9333B92C2B599B0007C41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9333A02C2B598E0007C41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9333A72C2B598E0007C41F;
+			remoteInfo = TranquilTracks;
+		};
+		BD9333C32C2B599B0007C41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9333A02C2B598E0007C41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9333A72C2B598E0007C41F;
+			remoteInfo = TranquilTracks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD9333A82C2B598E0007C41F /* TranquilTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranquilTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilTracksApp.swift; sourceTree = "<group>"; };
+		BD9333AD2C2B598E0007C41F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD9333AF2C2B599B0007C41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD9333B22C2B599B0007C41F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD9333B82C2B599B0007C41F /* TranquilTracksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquilTracksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9333BC2C2B599B0007C41F /* TranquilTracksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilTracksTests.swift; sourceTree = "<group>"; };
+		BD9333C22C2B599B0007C41F /* TranquilTracksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquilTracksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9333C62C2B599B0007C41F /* TranquilTracksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilTracksUITests.swift; sourceTree = "<group>"; };
+		BD9333C82C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilTracksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD9333A52C2B598E0007C41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9333B52C2B599B0007C41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9333BF2C2B599B0007C41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD93339F2C2B598E0007C41F = {
+			isa = PBXGroup;
+			children = (
+				BD9333AA2C2B598E0007C41F /* TranquilTracks */,
+				BD9333BB2C2B599B0007C41F /* TranquilTracksTests */,
+				BD9333C52C2B599B0007C41F /* TranquilTracksUITests */,
+				BD9333A92C2B598E0007C41F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD9333A92C2B598E0007C41F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD9333A82C2B598E0007C41F /* TranquilTracks.app */,
+				BD9333B82C2B599B0007C41F /* TranquilTracksTests.xctest */,
+				BD9333C22C2B599B0007C41F /* TranquilTracksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD9333AA2C2B598E0007C41F /* TranquilTracks */ = {
+			isa = PBXGroup;
+			children = (
+				BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */,
+				BD9333AD2C2B598E0007C41F /* ContentView.swift */,
+				BD9333AF2C2B599B0007C41F /* Assets.xcassets */,
+				BD9333B12C2B599B0007C41F /* Preview Content */,
+			);
+			path = TranquilTracks;
+			sourceTree = "<group>";
+		};
+		BD9333B12C2B599B0007C41F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD9333B22C2B599B0007C41F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD9333BB2C2B599B0007C41F /* TranquilTracksTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9333BC2C2B599B0007C41F /* TranquilTracksTests.swift */,
+			);
+			path = TranquilTracksTests;
+			sourceTree = "<group>";
+		};
+		BD9333C52C2B599B0007C41F /* TranquilTracksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9333C62C2B599B0007C41F /* TranquilTracksUITests.swift */,
+				BD9333C82C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift */,
+			);
+			path = TranquilTracksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD9333A72C2B598E0007C41F /* TranquilTracks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9333CC2C2B599B0007C41F /* Build configuration list for PBXNativeTarget "TranquilTracks" */;
+			buildPhases = (
+				BD9333A42C2B598E0007C41F /* Sources */,
+				BD9333A52C2B598E0007C41F /* Frameworks */,
+				BD9333A62C2B598E0007C41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TranquilTracks;
+			productName = TranquilTracks;
+			productReference = BD9333A82C2B598E0007C41F /* TranquilTracks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD9333B72C2B599B0007C41F /* TranquilTracksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9333CF2C2B599B0007C41F /* Build configuration list for PBXNativeTarget "TranquilTracksTests" */;
+			buildPhases = (
+				BD9333B42C2B599B0007C41F /* Sources */,
+				BD9333B52C2B599B0007C41F /* Frameworks */,
+				BD9333B62C2B599B0007C41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9333BA2C2B599B0007C41F /* PBXTargetDependency */,
+			);
+			name = TranquilTracksTests;
+			productName = TranquilTracksTests;
+			productReference = BD9333B82C2B599B0007C41F /* TranquilTracksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD9333C12C2B599B0007C41F /* TranquilTracksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9333D22C2B599B0007C41F /* Build configuration list for PBXNativeTarget "TranquilTracksUITests" */;
+			buildPhases = (
+				BD9333BE2C2B599B0007C41F /* Sources */,
+				BD9333BF2C2B599B0007C41F /* Frameworks */,
+				BD9333C02C2B599B0007C41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9333C42C2B599B0007C41F /* PBXTargetDependency */,
+			);
+			name = TranquilTracksUITests;
+			productName = TranquilTracksUITests;
+			productReference = BD9333C22C2B599B0007C41F /* TranquilTracksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD9333A02C2B598E0007C41F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BD9333A72C2B598E0007C41F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BD9333B72C2B599B0007C41F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD9333A72C2B598E0007C41F;
+					};
+					BD9333C12C2B599B0007C41F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD9333A72C2B598E0007C41F;
+					};
+				};
+			};
+			buildConfigurationList = BD9333A32C2B598E0007C41F /* Build configuration list for PBXProject "TranquilTracks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD93339F2C2B598E0007C41F;
+			productRefGroup = BD9333A92C2B598E0007C41F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD9333A72C2B598E0007C41F /* TranquilTracks */,
+				BD9333B72C2B599B0007C41F /* TranquilTracksTests */,
+				BD9333C12C2B599B0007C41F /* TranquilTracksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD9333A62C2B598E0007C41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9333B32C2B599B0007C41F /* Preview Assets.xcassets in Resources */,
+				BD9333B02C2B599B0007C41F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9333B62C2B599B0007C41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9333C02C2B599B0007C41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD9333A42C2B598E0007C41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9333AE2C2B598E0007C41F /* ContentView.swift in Sources */,
+				BD9333AC2C2B598E0007C41F /* TranquilTracksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9333B42C2B599B0007C41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9333BD2C2B599B0007C41F /* TranquilTracksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9333BE2C2B599B0007C41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9333C92C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift in Sources */,
+				BD9333C72C2B599B0007C41F /* TranquilTracksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD9333BA2C2B599B0007C41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD9333A72C2B598E0007C41F /* TranquilTracks */;
+			targetProxy = BD9333B92C2B599B0007C41F /* PBXContainerItemProxy */;
+		};
+		BD9333C42C2B599B0007C41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD9333A72C2B598E0007C41F /* TranquilTracks */;
+			targetProxy = BD9333C32C2B599B0007C41F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD9333CA2C2B599B0007C41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD9333CB2C2B599B0007C41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD9333CD2C2B599B0007C41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TranquilTracks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TranquilTracks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD9333CE2C2B599B0007C41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TranquilTracks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TranquilTracks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD9333D02C2B599B0007C41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TranquilTracksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranquilTracks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TranquilTracks";
+			};
+			name = Debug;
+		};
+		BD9333D12C2B599B0007C41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TranquilTracksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranquilTracks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TranquilTracks";
+			};
+			name = Release;
+		};
+		BD9333D32C2B599B0007C41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TranquilTracksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TranquilTracks;
+			};
+			name = Debug;
+		};
+		BD9333D42C2B599B0007C41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TranquilTracksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TranquilTracks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD9333A32C2B598E0007C41F /* Build configuration list for PBXProject "TranquilTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9333CA2C2B599B0007C41F /* Debug */,
+				BD9333CB2C2B599B0007C41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9333CC2C2B599B0007C41F /* Build configuration list for PBXNativeTarget "TranquilTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9333CD2C2B599B0007C41F /* Debug */,
+				BD9333CE2C2B599B0007C41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9333CF2C2B599B0007C41F /* Build configuration list for PBXNativeTarget "TranquilTracksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9333D02C2B599B0007C41F /* Debug */,
+				BD9333D12C2B599B0007C41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9333D22C2B599B0007C41F /* Build configuration list for PBXNativeTarget "TranquilTracksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9333D32C2B599B0007C41F /* Debug */,
+				BD9333D42C2B599B0007C41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD9333A02C2B598E0007C41F /* Project object */;
+}
