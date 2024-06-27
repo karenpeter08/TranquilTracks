@@ -59,7 +59,7 @@ struct QuizView: View {
                             .tint(.purple)
                             .buttonStyle(.borderedProminent)
                             
-                            NavigationLink(destination: Sad()) {
+                            NavigationLink(destination: uplifting()) {
                                 Text("Uplifting")
                                     .fontWeight(.thin)
                             }

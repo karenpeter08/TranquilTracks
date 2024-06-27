@@ -10,6 +10,7 @@
 		BD3440BC2C2DD31D008F4D83 /* Sad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3440BB2C2DD31D008F4D83 /* Sad.swift */; };
 		BD3440BE2C2DDE2A008F4D83 /* lonely.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3440BD2C2DDE2A008F4D83 /* lonely.swift */; };
 		BD3440C02C2DE522008F4D83 /* depressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3440BF2C2DE522008F4D83 /* depressed.swift */; };
+		BD3440C22C2DFFEB008F4D83 /* uplifting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3440C12C2DFFEB008F4D83 /* uplifting.swift */; };
 		BD9333AC2C2B598E0007C41F /* TranquilTracksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */; };
 		BD9333AE2C2B598E0007C41F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333AD2C2B598E0007C41F /* ContentView.swift */; };
 		BD9333B02C2B599B0007C41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9333AF2C2B599B0007C41F /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		BD3440BB2C2DD31D008F4D83 /* Sad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.swift; sourceTree = "<group>"; };
 		BD3440BD2C2DDE2A008F4D83 /* lonely.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lonely.swift; sourceTree = "<group>"; };
 		BD3440BF2C2DE522008F4D83 /* depressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depressed.swift; sourceTree = "<group>"; };
+		BD3440C12C2DFFEB008F4D83 /* uplifting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uplifting.swift; sourceTree = "<group>"; };
 		BD9333A82C2B598E0007C41F /* TranquilTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranquilTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilTracksApp.swift; sourceTree = "<group>"; };
 		BD9333AD2C2B598E0007C41F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			children = (
 				BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */,
 				BD9333AD2C2B598E0007C41F /* ContentView.swift */,
+				BD3440C12C2DFFEB008F4D83 /* uplifting.swift */,
 				BDF788332C2CC12D00B863F7 /* QuizView.swift */,
 				BD3440BB2C2DD31D008F4D83 /* Sad.swift */,
 				BDF788352C2CC13900B863F7 /* RecsView.swift */,
@@ -282,6 +285,7 @@
 				BD9333AE2C2B598E0007C41F /* ContentView.swift in Sources */,
 				BD3440BE2C2DDE2A008F4D83 /* lonely.swift in Sources */,
 				BDF788362C2CC13900B863F7 /* RecsView.swift in Sources */,
+				BD3440C22C2DFFEB008F4D83 /* uplifting.swift in Sources */,
 				BD3440C02C2DE522008F4D83 /* depressed.swift in Sources */,
 				BDF788382C2CC14C00B863F7 /* AboutUs.swift in Sources */,
 				BD9333AC2C2B598E0007C41F /* TranquilTracksApp.swift in Sources */,
