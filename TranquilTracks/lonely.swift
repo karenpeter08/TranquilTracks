@@ -29,7 +29,7 @@ struct lonely: View {
                 Text("")
                 Text("")
                 Text("")
-                Text("")
+
                 
                 
                 

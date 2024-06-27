@@ -18,6 +18,10 @@ struct depressed: View {
                 Text("")
                 Text("")
                 Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
                 
                 VStack() {
                     Text("DEPRESSED RECS")

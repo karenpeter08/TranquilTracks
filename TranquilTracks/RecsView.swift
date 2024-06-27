@@ -23,6 +23,8 @@ struct RecsView: View {
               Text("")
               Text("")
               Text("")
+              Text("")
+              Text("")
               Text("OUR RECS OF THE DAY")
                   .font(.largeTitle)
                   .fontWeight(.light)
