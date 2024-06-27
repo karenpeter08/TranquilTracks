@@ -52,8 +52,8 @@ struct ContentView: View {
                         
                     } // end hstack
                     HStack(spacing: 35){
-                        NavigationLink(destination: ResultView()) {
-                            Text("RESULT ")
+                        NavigationLink(destination: AboutUs()) {
+                            Text("ABOUT US")
                                 .fontWeight(.thin)
                         }
                         .padding(.leading)

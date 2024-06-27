@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD3440BC2C2DD31D008F4D83 /* Sad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3440BB2C2DD31D008F4D83 /* Sad.swift */; };
+		BD3440BE2C2DDE2A008F4D83 /* lonely.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3440BD2C2DDE2A008F4D83 /* lonely.swift */; };
+		BD3440C02C2DE522008F4D83 /* depressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3440BF2C2DE522008F4D83 /* depressed.swift */; };
 		BD9333AC2C2B598E0007C41F /* TranquilTracksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */; };
 		BD9333AE2C2B598E0007C41F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333AD2C2B598E0007C41F /* ContentView.swift */; };
 		BD9333B02C2B599B0007C41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9333AF2C2B599B0007C41F /* Assets.xcassets */; };
@@ -16,7 +19,7 @@
 		BD9333C92C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333C82C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift */; };
 		BDF788342C2CC12D00B863F7 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF788332C2CC12D00B863F7 /* QuizView.swift */; };
 		BDF788362C2CC13900B863F7 /* RecsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF788352C2CC13900B863F7 /* RecsView.swift */; };
-		BDF788382C2CC14C00B863F7 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF788372C2CC14C00B863F7 /* ResultView.swift */; };
+		BDF788382C2CC14C00B863F7 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF788372C2CC14C00B863F7 /* AboutUs.swift */; };
 		BDF7883A2C2CC15A00B863F7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF788392C2CC15A00B863F7 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD3440BB2C2DD31D008F4D83 /* Sad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.swift; sourceTree = "<group>"; };
+		BD3440BD2C2DDE2A008F4D83 /* lonely.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lonely.swift; sourceTree = "<group>"; };
+		BD3440BF2C2DE522008F4D83 /* depressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depressed.swift; sourceTree = "<group>"; };
 		BD9333A82C2B598E0007C41F /* TranquilTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranquilTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilTracksApp.swift; sourceTree = "<group>"; };
 		BD9333AD2C2B598E0007C41F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +56,7 @@
 		BD9333C82C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilTracksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BDF788332C2CC12D00B863F7 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		BDF788352C2CC13900B863F7 /* RecsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecsView.swift; sourceTree = "<group>"; };
-		BDF788372C2CC14C00B863F7 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		BDF788372C2CC14C00B863F7 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		BDF788392C2CC15A00B863F7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,8 +111,11 @@
 				BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */,
 				BD9333AD2C2B598E0007C41F /* ContentView.swift */,
 				BDF788332C2CC12D00B863F7 /* QuizView.swift */,
+				BD3440BB2C2DD31D008F4D83 /* Sad.swift */,
 				BDF788352C2CC13900B863F7 /* RecsView.swift */,
-				BDF788372C2CC14C00B863F7 /* ResultView.swift */,
+				BD3440BD2C2DDE2A008F4D83 /* lonely.swift */,
+				BDF788372C2CC14C00B863F7 /* AboutUs.swift */,
+				BD3440BF2C2DE522008F4D83 /* depressed.swift */,
 				BDF788392C2CC15A00B863F7 /* InfoView.swift */,
 				BD9333AF2C2B599B0007C41F /* Assets.xcassets */,
 				BD9333B12C2B599B0007C41F /* Preview Content */,
@@ -269,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3440BC2C2DD31D008F4D83 /* Sad.swift in Sources */,
 				BD9333AE2C2B598E0007C41F /* ContentView.swift in Sources */,
+				BD3440BE2C2DDE2A008F4D83 /* lonely.swift in Sources */,
 				BDF788362C2CC13900B863F7 /* RecsView.swift in Sources */,
-				BDF788382C2CC14C00B863F7 /* ResultView.swift in Sources */,
+				BD3440C02C2DE522008F4D83 /* depressed.swift in Sources */,
+				BDF788382C2CC14C00B863F7 /* AboutUs.swift in Sources */,
 				BD9333AC2C2B598E0007C41F /* TranquilTracksApp.swift in Sources */,
 				BDF7883A2C2CC15A00B863F7 /* InfoView.swift in Sources */,
 				BDF788342C2CC12D00B863F7 /* QuizView.swift in Sources */,
