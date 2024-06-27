@@ -14,6 +14,7 @@ struct AboutUs: View {
                 .resizable(resizingMode: .stretch)
                 .frame(height: 999.0)
             VStack {
+                Text("")
                 Text("A  B  O  U  T")
                     .font(.largeTitle)
                 Text("U     S")
@@ -22,7 +23,9 @@ struct AboutUs: View {
                 Text("")
                 Text("")
                 Text("")
-                HStack{
+                Text("")
+                Text("")
+                Text("")
                     VStack{
                         Text("OUR")
                             .font(.title2)
@@ -37,7 +40,6 @@ struct AboutUs: View {
                         .font(.footnote)
                         .padding(.horizontal)
         
-                } // end Hstack
             } // vstack end
         } // end zstack
     } // end body

@@ -50,12 +50,15 @@ struct lonely: View {
                                 if let url = URL(string: "https://www.youtube.com/watch?v=V1Pl8CzNzCw") {
                                     UIApplication.shared.open(url)
                                 }
-                            }) {
+                                
+                            }) 
+                            {
                                 Image("lovely")
                                     .resizable()
                                     .frame(width: 180.0, height: 180.0)
                                     .aspectRatio(contentMode: .fit)
                             }
+                            
                             Text("Lovely - Billie Eilish \n\n")
                                 .font(.caption)
                             

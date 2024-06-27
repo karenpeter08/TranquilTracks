@@ -31,7 +31,7 @@ struct Sad: View {
                             .tint(.purple)
                             .buttonStyle(.borderedProminent)
                             
-                            NavigationLink(destination: ContentView()) {
+                            NavigationLink(destination: depressed()) {
                                 Text("Depressed")
                                     .fontWeight(.thin)
                             }

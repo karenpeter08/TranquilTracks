@@ -13,7 +13,8 @@ struct QuizView: View {
                     ZStack {
                         Image("purple")
                             .resizable(resizingMode: .stretch)
-                            .frame(height: 900.0)
+                            .padding(.bottom)
+                            .frame(height: 999.0)
                     
                     VStack {
                         Text("What emotion are you feeling?")

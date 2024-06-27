@@ -47,7 +47,8 @@ struct depressed: View {
                             
                                 .font(.title2)
                                 .fontWeight(.thin)
-                            
+             Text("")
+                            Text("")
                             Button(action: {
                                 if let url = URL(string: "https://www.youtube.com/watch?v=vBHild0PiTE") {
                                     UIApplication.shared.open(url)
