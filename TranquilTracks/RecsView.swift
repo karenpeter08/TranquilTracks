@@ -108,9 +108,9 @@ struct RecsView: View {
                   }
               }
           }
-          
+          .padding()
+
     }
-    .padding()
   }
 }
 #Preview {
