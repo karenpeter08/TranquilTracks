@@ -14,6 +14,10 @@
 		BD9333BD2C2B599B0007C41F /* TranquilTracksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333BC2C2B599B0007C41F /* TranquilTracksTests.swift */; };
 		BD9333C72C2B599B0007C41F /* TranquilTracksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333C62C2B599B0007C41F /* TranquilTracksUITests.swift */; };
 		BD9333C92C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9333C82C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift */; };
+		BDF788342C2CC12D00B863F7 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF788332C2CC12D00B863F7 /* QuizView.swift */; };
+		BDF788362C2CC13900B863F7 /* RecsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF788352C2CC13900B863F7 /* RecsView.swift */; };
+		BDF788382C2CC14C00B863F7 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF788372C2CC14C00B863F7 /* ResultView.swift */; };
+		BDF7883A2C2CC15A00B863F7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF788392C2CC15A00B863F7 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		BD9333C22C2B599B0007C41F /* TranquilTracksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquilTracksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9333C62C2B599B0007C41F /* TranquilTracksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilTracksUITests.swift; sourceTree = "<group>"; };
 		BD9333C82C2B599B0007C41F /* TranquilTracksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquilTracksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF788332C2CC12D00B863F7 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		BDF788352C2CC13900B863F7 /* RecsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecsView.swift; sourceTree = "<group>"; };
+		BDF788372C2CC14C00B863F7 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		BDF788392C2CC15A00B863F7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				BD9333AB2C2B598E0007C41F /* TranquilTracksApp.swift */,
 				BD9333AD2C2B598E0007C41F /* ContentView.swift */,
+				BDF788332C2CC12D00B863F7 /* QuizView.swift */,
+				BDF788352C2CC13900B863F7 /* RecsView.swift */,
+				BDF788372C2CC14C00B863F7 /* ResultView.swift */,
+				BDF788392C2CC15A00B863F7 /* InfoView.swift */,
 				BD9333AF2C2B599B0007C41F /* Assets.xcassets */,
 				BD9333B12C2B599B0007C41F /* Preview Content */,
 			);
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9333AE2C2B598E0007C41F /* ContentView.swift in Sources */,
+				BDF788362C2CC13900B863F7 /* RecsView.swift in Sources */,
+				BDF788382C2CC14C00B863F7 /* ResultView.swift in Sources */,
 				BD9333AC2C2B598E0007C41F /* TranquilTracksApp.swift in Sources */,
+				BDF7883A2C2CC15A00B863F7 /* InfoView.swift in Sources */,
+				BDF788342C2CC12D00B863F7 /* QuizView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
